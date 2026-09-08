@@ -3,11 +3,11 @@ name: Build Kivy APK
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: {}   # permette di lanciarlo anche a mano dalla UI/GitHub app
+  workflow_dispatch: {}
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout codice
