@@ -3,3 +3,6 @@ bin/
 *.pyc
 __pycache__/
 .kivy/
+log.txt
+log2.txt
+*.log
