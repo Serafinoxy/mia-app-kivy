@@ -44,6 +44,10 @@ jobs:
           pip install --upgrade pip
           pip install buildozer cython==0.29.33
 
+      - name: Aggiorna python-for-android all'ultima versione da sorgente
+        run: |
+          pip install --upgrade "git+https://github.com/kivy/python-for-android.git"
+
       - name: Pulisci eventuali venv corrotti da build precedenti
         run: |
           find .buildozer -type d -name "venv" -exec rm -rf {} + 2>/dev/null || true
