@@ -13,7 +13,7 @@ import requests
 # --- CONFIGURAZIONE ---
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 REPO = "Serafinoxy/mia-app-kivy"
-RUN_ID = "34283411855"
+RUN_ID = "34402475427"
 INTERVALLO_SECONDI = 60
 HEADERS = {"Authorization": f"token {TOKEN}"}
 # ----------------------
